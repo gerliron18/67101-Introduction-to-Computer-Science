@@ -1,0 +1,75 @@
+gerliron18
+308350503
+Liron Gershuny
+
+==========================
+=  README for ex3: Loops =
+==========================
+Websites I used:
+
+https://trinket.io/python/53e8411034
+
+https://books.google.co.il/books?id=ooEu2XOA_xMC&pg=PA187&lpg= \
+PA187&dq=%D7%94%D7%99%D7%A1%D7%98%D7%95%D7%92%D7%A8%D7%9E%D7%94+ \
+%D7%A9%D7%9C+%D7%A8%D7%A9%D7%99%D7%9E%D7%94&source=bl&ots= \
+04WsCsQBpN&sig=_1JsnvanfwIgVfMVLhA8Fjg2Y0Y&hl=en&sa=X&ved= \
+0ahUKEwjtwrnu1rjXAhVIp6QKHb15BD8Q6AEIJDAA#v=onepage&q= \
+%D7%94%D7%99%D7%A1%D7%98%D7%95%D7%92%D7%A8%D7%9E%D7%94%20%D7%A9%D7% \
+9C%20%D7%A8%D7%A9%D7%99%D7%9E%D7%94&f=false
+
+==================
+=  Description:  =
+==================
+A program that define 8 different function:
+
+Part A - getting an input from the user:
+
+1. "Create list"- the function return a list
+   of the user inputs related one to the other.
+2. "Concat list"- the function return the join of
+   the given strings together.
+3. "Average"- the function based on a list of floats,
+   will return the average value.
+
+Part B - Loops and Lists:
+
+4. "Cyclic"- the function works with 2 lists from
+   any kind, checks if one is the cyclic permutation
+   of the other, will return a boolean True or False.
+5. "Histogram"- the function return the histogram of
+   a list according to a given integer as a list.
+
+Part C - Nested Loops:
+
+6. "Prime factors"- The function return a list of the
+   prime factors of a given integer.
+7. "Cartesian"- the function return a list of tuples
+   represent the cartesian product of 2 given string lists.
+8. "Pairs"- the function return a list of integer pairs
+   from a given list that their amount equals a given integer.
+
+Part D - Theoretical questions:
+
+1. The function will return Flase boolean because the function
+   compare between lists with few factors. This call compare
+   between 2 lists of one factor each that are different strings.
+2. The function will return an error. the given integer
+   equals 3 while the given list include the integer '4'.
+   Because 4 > 3, the for loop need to work out of her range
+   where it not define so error will be.
+3. The function will return an empty list. As it for the
+   integer '1', the value '0' divide by any number excluding
+   itself so at my function this case returns an empty list
+   as it for integer '1'.
+4. The function will return the list:
+   [[0, 2], [0, 2], [0, 2], [0, 2], [1, 1]].
+   The integers '0' and '2' repeat 2 times each at the call,
+   the function built to return any of the possible cases
+   but wont check for pair repetitions. Because of this lack
+   of check the output seems like that.
+
+======================
+=  Special Comments  =
+======================
+This program define 8 functions but
+wont call any of them.
