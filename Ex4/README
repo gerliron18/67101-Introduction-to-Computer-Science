@@ -1,0 +1,27 @@
+gerliron18
+308350503
+Liron Gershuny
+
+============================
+=  README for ex4: hangman =
+============================
+websites I used:
+
+https://stackoverflow.com/questions/1876191/what-exactly
+-does-the-join-method-do
+
+https://stackoverflow.com/questions/2474015/getting-the-index-of-the
+-returned-max-or-min-item-using-max-min-on-a-list
+
+https://stackoverflow.com/questions/33883512/check-if-any-
+character-of-a-string-is-uppercase-python
+
+==================
+=  Description:  =
+==================
+A program that define the game "hangman".
+
+
+======================
+=  Special Comments  =
+======================
