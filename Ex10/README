@@ -1,0 +1,35 @@
+Liron Gershuny
+gerliron18
+308350503
+
+===========================
+=  README for ex10: Trees =
+===========================
+Websites I used:
+
+https://stackoverflow.com/questions/268272/getting-key- \
+with-maximum-value-in-dictionary
+
+==================
+=  Description:  =
+==================
+This exercise define functions working with binary trees,
+OOP and recursion.
+
+The main issue of this exercise is to work with a frame of classes,
+there was 3 different classes that was created for us:
+Node, Record and Diagnoser
+
+In part one our purpose was to define functions in Diagnoser class that
+could work with external data of illnesses and symptoms of sick people,
+arrange them in trees and to find paths and comparing symptoms with
+illnesses.
+
+In part two we define functions that are not in class functions,
+this part including building trees and calculate the lowest error rate
+according to the data that the user gave us.
+
+======================
+=  Special Comments  =
+======================
+This program won't print any to the screen.
