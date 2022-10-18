@@ -1,0 +1,43 @@
+Liron Gershuny
+gerliron18
+308350503
+
+==================================
+=  README for ex11: Backtracking =
+==================================
+Websites I used:
+
+https://stackoverflow.com/questions/20950650/how-to- \
+sort-counter-by-value-python
+
+==================
+=  Description:  =
+==================
+The backtracking exercise goal is to solve problems using backtracking method.
+As the name suggests we back­track to find the solution.
+We start with one possible move out of many available moves
+and try to solve the problem. if we are able to solve the problem
+with the selected move then we will print the solution
+else we will back­track and select some other move and try to solve it.
+If none of the moves work out we will claim that there
+is no solution for the problem.
+
+This exercise separated to few parts:
+
+Part one: ex11_backtrack.py
+Define a general backtracking function that should solve few problems,
+this function will be called from different programs to work with.
+
+Part two: ex11_sudoku.py and ex11_map_coloring.py
+Define programs that solve sudoku board and solve graph coloring problems
+using the general backtracking function.
+
+Part three: ex11_improve_backtrack.py
+In this part we define function that should make the general backtracking
+more efficient using few given methods.
+
+
+======================
+=  Special Comments  =
+======================
+All programs won't print any to the screen.
