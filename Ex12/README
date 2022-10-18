@@ -1,0 +1,79 @@
+Liron Gershuny, gerliron18, 308350503
+Chana Goldstein, c.goldstein, 316556976
+
+
+===================================
+=  README for ex12: Four In A Row =
+===================================
+Websites we used:
+
+https://www.tutorialspoint.com/python/python_gui_programming.htm
+
+https://docs.python.org/2/library/random.html
+
+https://docs.python.org/2/tutorial/errors.html
+
+We spoke about the exercise with Meir Helman and Dror Bar.
+
+==================
+=  Description:  =
+==================
+This exercise is a Connect Four game which uses OOP coding,
+graphical user interface,(GUI) computer networking and artificial intelligence
+(AI).
+
+Four In A Row / Connect Four is a two-player game in which
+the players take turns dropping colored discs into a grid. The grid has seven
+columns and six rows. When inserting a disk, the disk falls straight down,
+occupying the next available spot within the column.
+In order to win, a player must get four of their discs in a row. Whoever
+gets four in a row first is the winner.
+The name Four In A Row might be slightly misleading, since you can win also in
+other situations, when the "row" is not the typical meaning of "row" (aka a
+horizontal line). There are a three ways to get four disks in a row:
+a horizontal row, a vertical row (column), and a diagonal sequence.
+
+When it's your turn to make a move, you just have to press the
+column you would like to drop your disc into. On your first move,
+the disk will will drop all the way to the bottom row. You can put a disk
+in any column you wish, unless the column is full.
+
+To play the game, one can call the game from the command line. In the command
+line, one must give a few arguments, including:
+The type of player:
+You can choose whether to play against the computer, by entering "ai" into the
+command line. Alternately you can play against a friend (or enemy?!) by
+entering "human" into the command line.
+The port:
+The port through which the networking will go through.
+Server:
+One of the players will serve as the "server" and will not give another
+argument. In addition, he will be "Player One" and as such, he will be the
+first to make a move. The other player or the computer will serve as the
+"client" and will have to add an additional argument to the command line: the
+server ip.
+
+This game will work in all the possible combinations of player type:
+Human vs human, human vs computer, and computer vs computer.
+
+GUI:
+Our GUI class is implemented inside the four_in_a_row.py script.
+The GUI brings up indications about the current state of the game. These
+include messages at the bottom of the window that show whose turn it is and
+what your color disks are (yes... we've found that sometimes when you play
+dozens of games in a row, it becomes challenging to remember what color you are
+playing:)). Once there is a winning hand on the board, the circles that created
+the "four in a row" change their color to indicate where the winning hand is,
+and display a winning and losing message to the appropriate players.
+
+AI:
+One of the strategies of Connect Four is to place your disk in the center
+column. Thus, when the AI needs to generate a move, it first tries to drop a
+disk into the center column. If the column is full, then it randomly generates
+another location into which he puts a disk.
+
+======================
+=  Special Comments  =
+======================
+Non of the scripts would print any to the screen when it called
+correctly.
