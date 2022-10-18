@@ -1,0 +1,53 @@
+gerliron18
+308350503
+Liron Gershuny
+
+=====================================
+=  README for ex6: Image processing =
+=====================================
+Websites we used:
+
+https://stackoverflow.com/questions/2612802/how-to-clone-or-copy-a-list
+
+http://henry.precheur.org/python/copy_list
+
+http://iiif.io/api/annex/notes/rotation/
+
+http://www.java-gaming.org/index.php?topic=31033.0
+
+https://stackoverflow.com/questions/82831/how-do-i-check-whether-a-\
+file-exists-using-python
+
+
+==================
+=  Description:  =
+==================
+A program for image processing.
+Including 8 base function for operations on images,
+each one of them can relate to few more functions that helps the script
+be much more readable:
+1. Finding image threshold
+2. Convert image pixels to B/W according to founded threshold
+3. Applying image filter by given 3*3 filter matrix
+4. Edge detector that apply filter by 8 nearest pixels average
+5. *3 sampeling of given image
+6. Downsameling image by max diagonal size user input
+7. Find the dominate angle of given B/W image
+8. Rotate image by a given angle
+More over, there are few functions at the end of the script that use to manage
+the all program:
+1. Make correction - run all above function in their order to rotate given
+   image by dominate angle of the image
+2. Check the input - for checking the correction of given files
+3. Main - this function is the top managing function, will call
+   manage functions above to use all the program.
+   When user call this program, this function starts automatically.
+
+======================
+=  Special Comments  =
+======================
+# This project won't print anything to the interpreter
+  but will form an output file according to user request.
+# I chose to seperate the filter function and the edge function to eprox. 10
+  function each because I think it's more efficiant than work with 1,2 or 3
+  function that will check any pixel few times.
