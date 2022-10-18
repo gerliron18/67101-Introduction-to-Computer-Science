@@ -1,0 +1,41 @@
+gerliron18
+308350503
+Liron Gershuny
+
+===============================
+=  README for ex2: Conditions =
+===============================
+Websites I used:
+https://docs.python.org/3/library/math.html
+http://www.pythonforbeginners.com/dictionary/python-split
+
+==================
+=  Description:  =
+==================
+The main purpose of this exercise is working with conditions.
+You will find a bundle of six python files:
+1. convert_spoon_to_cup.py - script that define a function
+   that gets parameters and return value
+2. calculate_mathematical_expression.py - script that define a
+   2 functions, one that gets parameters and return value
+   and one that call the first function
+3. largest_and_smallest.py - script that define a function
+   that gets 3 parameters and return 2 values
+4. quadratic_equation.py - script that define 2 functions,
+   one that gets 3 coefficients of quadratic equation and
+   then calculate it and one that gets an input from the
+   user, call the first function and use it to print
+   an answer to the user
+5. shapes.py - script that define a function that gets
+   values from the user and calculate the area of geometric
+   shapes
+6. temperature.py - script that define a function that gets
+   4 parameters from the user and compare one to another
+   then return boolean value
+
+======================
+=  Special Comments  =
+======================
+None of the scripts ends with a call to one of the
+functions in it as requested but one function can call
+the other.
