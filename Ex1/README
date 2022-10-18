@@ -1,0 +1,29 @@
+gerliron18
+308350503
+Liron Gershuny
+
+=================================
+=  README for ex1: Hello Turtle =
+=================================
+
+
+==================
+=  Description:  =
+==================
+The exercise is divided into two different scripts.
+In the first script name "hello_turtle.py"
+I used the module "turtle" to print to the
+standard output (screen) a draw of three flowers.
+In the second script name "math_print.py"
+I used the module "math" to define six different
+printing functions to the result of mathematical
+calculations according to the demand.
+
+======================
+=  Special Comments  =
+======================
+1.The script "hello_turtle.py" defined
+to start printing as you run it.
+2.The script "math_print.py" defined
+to call all of the functions
+included in it at the end of the script.
