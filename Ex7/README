@@ -1,0 +1,30 @@
+gerliron18
+308350503
+Liron Gershuny
+
+===============================
+=  README for ex7: Recursions =
+===============================
+Websites I used:
+
+https://www.python-course.eu/recursive_functions.php
+
+https://www.tutorialspoint.com/python/string_join.htm
+
+==================
+=  Description:  =
+==================
+A program that define 10 recursive functions:
+
+1-5 functions are linear recursive functions
+
+6 function - hanoi game solver
+
+7-10 functions are non-linear recursive functions
+
+======================
+=  Special Comments  =
+======================
+The program wont print any to the interpreter as is.
+some functions print when they get inputs and some only
+return output without printing it.
