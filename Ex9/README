@@ -1,0 +1,97 @@
+Liron Gershuny, gerliron18, 308350503
+Chana Goldstein, c.goldstein, 316556976
+
+
+==============================
+=  README for ex9: Asteroids =
+==============================
+Three considerations we have experienced at script arrangement:
+1.
+Our option: We decided to write the function split_asteroid in the
+GameRunner and not in the asteroid class, since it relates not only to the
+asteroid but also to a specific torpedo.
+
+Alternative: We could have written the function in the asteroid class and sent
+the torpedo object to it when we called the function.
+
+Why we chose our way: We chose this way since this function is directly related
+to an action that happens during the game.
+
+2.
+Our option: We decided to set the ship's life as a variable not related to the
+class ship.
+
+Alternative: Giving the ship it's life value when we initiate it.
+
+Why we chose our way: In the directions of ex9 it was written that you should
+initialize the ship with it's coordinates and speed. We weren't sure if we were
+allowed to initialize it with other factors as well.
+
+3.
+Option: We created one move function (called change_direction) that moves all
+the objects in the game.
+Alternative: Create a move function for each of the objects in their class.
+Why we choosing our way: This prevents having a repeat
+of the same code many times.
+
+
+Websites we used:
+
+https://stackoverflow.com/questions/11520492/difference-between-
+del-remove-and-pop-on-lists
+
+==================
+=  Description:  =
+==================
+This exercise is to create an asteroids game using OOP:
+
+The objective of Asteroids is to collect as many points as possible
+by destroying all of the asteroids on the screen, while avoiding death by
+colliding with an asteroid.
+
+There are three major types of objects in the game: A ship, asteroids,
+and torpedoes.
+
+Ship:
+The ship appears as a small triangle, whose position is randomly determined,
+based on the boundaries of the screen. The ship can rotate 360 degrees and
+move in different directions by using the arrow keys. Once accelerated, the
+ship possesses momentum and will keep the speed until it is accelerate
+in the opposite direction.
+
+
+Torpedoes:
+Torpedoes are missiles that the ship shoots. They characteristics (direction,
+speed, and starting location) are all based upon the ship's equivulant
+characteristics at the point the torpedo was released.
+The ship can only shoot torpedoes if at any given time there are fewer
+than 15 torpedoes in the game.
+A torpedo that that doesn't hit an asteroid will self-destroy after
+a defaulted amount of time.
+
+Asteroids:
+The number of asteroids in the game can be determined by the user when calling
+the program. If the user doesn't enter any value, the default number
+of asteroids will be 5. The asteroids come in three sizes:
+large (3), medium (2), and small(1).
+When large asteroids are hit by a torpedo,
+they split into two medium asteroids.
+If a medium asteroid is it, it splits into two smaller asteroids. If a small
+asteroid is hit, it will be destroyed by that single shot.
+Hitting an asteroid by a torpedo will give the player an amount of points
+according to the size of the asteroid that was hit.
+
+All three of these objects are "wrapped" by the horizontal and vertical axis.
+In other words, if one of the objects drifts off one side of the screen,
+it will reappear on the other side).
+
+
+The game ends if the player loses all of his/her lives, or if all asteroids
+have been eliminated, or if the user pushes "Quit" (or q).
+
+
+======================
+=  Special Comments  =
+======================
+Note! Torpedo's are under-water missiles while our game takes place at space.
+You may want to consider changing their name to "ICBM".
